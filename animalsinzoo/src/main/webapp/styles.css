@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+html {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+body{
+	background-image: url("image/funny-zoo-animals-05.jpg");
+	
+    
+    background-repeat:repeat;
+    background-position: left bottom;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
